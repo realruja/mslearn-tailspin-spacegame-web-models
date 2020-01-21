@@ -33,7 +33,7 @@ steps:
     versioningScheme: byPrereleaseNumber
     majorVersion: '2'
     minorVersion: '0'
-    patchVersion: '0'
+    patchVersion: '0' 
  
 - task: NuGetCommand@2
   displayName: 'Publish NuGet package'
